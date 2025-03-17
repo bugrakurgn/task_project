@@ -27,7 +27,7 @@ public class WeatherService {
     private final WeatherStackClient weatherClient;
 
 
-    private static final String API_URL = "http://api.weatherstack.com/current?access_key=2c55944a27db37a2bbf2d430ed6f2a73&query=";
+    private static final String API_URL = "http://api.weatherstack.com/current?access_key=&query=";
 
 
     public WeatherService(WeatherRepository weatherRepository, RestTemplate restTemplate, WeatherStackClient weatherClient) {

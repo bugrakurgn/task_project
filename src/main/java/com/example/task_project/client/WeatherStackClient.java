@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @FeignClient(
         name = "weatherstackClient",
-        url = "http://api.weatherstack.com"  // NOTE: Free WeatherStack plan requires HTTP, not HTTPS
+        url = "http://api.weatherstack.com"
 )
 public interface WeatherStackClient {
 
